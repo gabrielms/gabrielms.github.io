@@ -1,21 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+name: "Gabriel Souza"
+description: "web developer"
+url: "gabrielms.github.io"
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username:  gabrielms
+facebook_username: gabrielmatosdesouza
+twitter_username: gabrielqotsa
+linkedin_username: gabriel-matos-de-souza-336b752a
+# blog_url: "/blog"
+email: gabrielmatosdesouza@gmail.com
+# public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars2.githubusercontent.com/u/1145088"
+
+
+front_img: yes
+front_img_path: "imgs/torres6.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: yes
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
 
 # Build settings
 markdown: kramdown
+permalink: pretty
